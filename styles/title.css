@@ -1,0 +1,36 @@
+.main {
+  text-decoration: none;
+  color: #2F57E7;
+}
+
+.title {
+
+  height: 160px;
+  margin: 0;
+  margin-top: 60px;
+
+  font-family: 'Archivo', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 39px;
+
+  text-transform: uppercase;
+
+  color: #2F57E7;
+}
+
+.design {
+  font-family: Ygro Sans Beta;
+}
+
+.portfolio {
+  font-family: Archivo;
+  font-style: italic;
+}
+
+.simbirtseva {
+  font-family: Archivo;
+  font-style: italic;
+  text-transform: capitalize;
+}
