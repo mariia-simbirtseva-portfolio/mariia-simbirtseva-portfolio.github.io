@@ -1,0 +1,56 @@
+/*.gradients {
+  z-index: -1;
+  width: 100%;
+  position: absolute;
+  background-image: url('../../images/works/1.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}*/
+
+.buttons {
+  margin: 0 auto;
+  width: 1240px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  list-style: none;
+}
+
+.button > a {
+  display: flex;
+  text-decoration: none;
+
+  width: 232px;
+  height: 47px;
+}
+
+.button > a > p {
+  height: 47px;
+  margin: 0;
+}
+
+.button > a > img {
+  margin-right: 12px;
+}
+
+.button_inside {
+  display: flex;
+  align-items: center;
+
+  font-family: Archivo;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 27px;
+
+  color: #728DEB;
+}
+
+.content {
+  width: 100%;
+  padding: 0;
+}
