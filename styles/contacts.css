@@ -1,0 +1,90 @@
+.gradients {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('../images/gradients/gradients_contacts.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+
+.content {
+  margin: 0 auto;
+  margin-top: 110px;
+
+  display: grid;
+  grid-template-columns: 610px 610px;
+  grid-template-areas: "first second";
+  grid-column-gap: 20px;
+  width: 1240px;
+}
+
+.first,
+.second {
+  margin: 0;
+
+  font-family: Ygro Sans Beta;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #2F57E7;
+}
+
+.first {
+  grid-area: first;
+}
+
+.second {
+  grid-area: second;
+}
+
+p {
+  margin: 0;
+  height: 110px;
+}
+
+.mail {
+  margin-top: 35px;
+  width: 484px;
+
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+
+  color: #2F57E7;
+}
+
+.social_media {
+  margin-top: 16px;
+}
+
+.social_media img {
+  width: 54px;
+  margin-right: 40px;
+}
+
+.addition {
+  margin-top: 180px;
+  margin-left: 378px;
+  width: 232px;
+  height: 60px;
+
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2F57E7;
+}
+
+.addition a {
+  color: #2F57E7;
+}

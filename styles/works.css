@@ -1,0 +1,290 @@
+.gradients {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('../images/gradients/gradients_works.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+
+.text {
+  margin: 0 auto;
+  margin-top: 110px;
+
+  display: grid;
+  grid-template-columns: 610px 610px;
+  grid-template-areas: "text text";
+  grid-column-gap: 20px;
+  width: 1240px;
+}
+
+.text p {
+  width: 484px;
+  height: 160px;
+  margin: 0;
+  margin-left: 126px;
+
+  font-family: Ygro Sans Beta;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #2F57E7;
+}
+
+.works_list {
+  margin: 0 auto;
+  margin-top: 130px;
+
+  display: grid;
+  grid-template-columns: 610px 610px;
+  grid-template-areas:
+  "year_2021 year_2021"
+  "one two"
+  "three four"
+  "year_2020 year_2020"
+  "five six"
+  "seven eight"
+  "year_2019 year_2019"
+  "nine nine";
+  grid-gap: 20px;
+  width: 1240px;
+}
+
+.work_card + p {
+  margin-top: 100px;
+}
+
+.year_2021,
+.year_2020,
+.year_2019 {
+  width: 610px;
+  height: 70px;
+  margin: 0;
+
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 44px;
+
+  color: #2F57E7;
+}
+
+.year_2021 {
+  grid-area: year_2021;
+}
+
+.year_2020 {
+  grid-area: year_2020;
+}
+
+.year_2019 {
+  grid-area: year_2019;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.project {
+  text-decoration: none;
+}
+
+.work_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 610px;
+
+  border: 1px solid #ABB4BC;
+  box-sizing: border-box;
+  border-radius: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.work_card:hover {
+  background-color: #728DEB;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease-in-out;
+}
+
+.work_card:hover .card_title,
+.work_card:hover .card_tags {
+  color: #F3F0E9;
+}
+
+.card_image {
+  width: 100%;
+  height: 177px;
+
+  background: url("../images/2021_1.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 29px 29px 0px 0px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.two .card_image {
+  background: url("../images/2021_2.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.three .card_image {
+  background: url("../images/2021_3.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.four .card_image {
+  background: url("../images/2021_4.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.five .card_image {
+  background: url("../images/2020_1.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.six .card_image {
+  background: url("../images/2020_2.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seven .card_image {
+  background: url("../images/2020_3.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eight .card_image {
+  background: url("../images/2020_4.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nine .card_image {
+  background: url("../images/2019_1.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card_content {
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-top: 28px;
+  padding-left: 40px;
+}
+
+.card_title {
+  width: 307px;
+  height: 60px;
+
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 30px;
+
+  color: #2F57E7;
+  margin: 0;
+}
+
+.title_regular {
+  font-weight: normal;
+}
+
+.card_tags {
+  width: 528px;
+  height: 25px;
+  margin-bottom: 40px;
+
+  font-family: Archivo;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 25px;
+
+  color: #2F57E7;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.text_down p {
+  margin: 0 auto;
+  margin-top: 370px;
+
+  width: 671px;
+  height: 500px;
+
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 44px;
+
+  color: #2F57E7;
+}
