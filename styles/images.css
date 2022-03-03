@@ -1,0 +1,16 @@
+.gradients {
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('../images/gradients/gradients_about.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 100%
+}
+
+.content {
+  width: 100%;
+  padding: 0;
+  margin: -2px;
+}

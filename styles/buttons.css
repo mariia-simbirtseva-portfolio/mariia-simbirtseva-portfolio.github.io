@@ -1,13 +1,3 @@
-/*.gradients {
-  z-index: -1;
-  width: 100%;
-  position: absolute;
-  background-image: url('../../images/works/1.jpg');
-  background-position: 0 0;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}*/
-
 .buttons {
   margin: 0 auto;
   width: 1240px;
@@ -48,9 +38,4 @@
   line-height: 27px;
 
   color: #728DEB;
-}
-
-.content {
-  width: 100%;
-  padding: 0;
 }
