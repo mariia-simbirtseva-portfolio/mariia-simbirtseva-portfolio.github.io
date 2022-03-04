@@ -1,6 +1,7 @@
 .buttons {
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 10px;
   width: 1240px;
 
   display: flex;
