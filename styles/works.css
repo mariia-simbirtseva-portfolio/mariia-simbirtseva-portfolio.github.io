@@ -11,7 +11,7 @@
 
 .text {
   margin: 0 auto;
-  margin-top: 110px;
+  margin-top: 20px;
 
   display: grid;
   grid-template-columns: 610px 610px;
@@ -35,20 +35,55 @@
   color: #2F57E7;
 }
 
+.filter {
+  margin-top: 110px;
+}
+
+.filer_list {
+  list-style: none;
+  margin: 0 auto;
+  width: 1240px;
+  display: flex;
+  flex-direction: row;
+}
+
+.filter_link {
+  margin: 0;
+  padding: 0;
+  margin-right: 20px;
+  padding: 18px;
+  background: #DEDEDE;
+  border-radius: 10px;
+
+  font-family: Archivo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 25px;
+
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+
+  color: #9C9FA1;
+}
+
+.filter_item {
+  margin: 0;
+  padding: 0;
+}
+
 .works_list {
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 100px;
 
   display: grid;
   grid-template-columns: 610px 610px;
   grid-template-areas:
-  "year_2021 year_2021"
   "one two"
   "three four"
-  "year_2020 year_2020"
   "five six"
   "seven eight"
-  "year_2019 year_2019"
   "nine nine";
   grid-gap: 20px;
   width: 1240px;
@@ -56,34 +91,6 @@
 
 .work_card + p {
   margin-top: 100px;
-}
-
-.year_2021,
-.year_2020,
-.year_2019 {
-  width: 610px;
-  height: 70px;
-  margin: 0;
-
-  font-family: Archivo;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 44px;
-
-  color: #2F57E7;
-}
-
-.year_2021 {
-  grid-area: year_2021;
-}
-
-.year_2020 {
-  grid-area: year_2020;
-}
-
-.year_2019 {
-  grid-area: year_2019;
 }
 
 .one {
