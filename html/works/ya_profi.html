@@ -8,13 +8,103 @@
   <link rel="stylesheet" href="../../styles/header.css">
   <link rel="stylesheet" href="../../styles/title.css">
   <link rel="stylesheet" href="../../styles/style.css">
-  <link rel="stylesheet" href="../../styles/works/ya_profi.css">
+  <link rel="stylesheet" href="../../styles/buttons.css">
+  <link rel="stylesheet" href="../../styles/images.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="../../images/favicon/favicon-512.svg" sizes="any" type="image/svg+xml">
+  <link rel="icon" sizes="48x48" href="../../images/favicon/icon-48.png">
+  <link rel="icon" sizes="96x96" href="../../images/favicon/icon-96.png">
+  <link rel="icon" sizes="144x144" href="../../images/favicon/icon-144.png">
+  <link rel="icon" sizes="192x192" href="../../images/favicon/icon-192.png">
+  <link rel="icon" sizes="256x256" href="../../images/favicon/icon-256.png">
+  <link rel="icon" sizes="384x384" href="../../images/favicon/icon-384.png">
+  <link rel="icon" sizes="512x512" href="../../images/favicon/icon-512.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="../../images/favicon/apple-touch-icon-57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../../images/favicon/apple-touch-icon-60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../../images/favicon/apple-touch-icon-72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../../images/favicon/apple-touch-icon-76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../../images/favicon/apple-touch-icon-114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../../images/favicon/apple-touch-icon-120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../../images/favicon/apple-touch-icon-152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="../../images/favicon/apple-touch-icon-167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../images/favicon/apple-touch-icon-180.png">
+  <link rel="mask-icon" href="../../images/favicon/safari-pinned-tab.svg" color="radial-gradient(50.12% 49.88% at 50% 50%, #ED1C24 0%, #F15A24 100%)">
+  <meta name="msapplication-TileColor" content="radial-gradient(50.12% 49.88% at 50% 50%, #ED1C24 0%, #F15A24 100%)">
+  <meta name="msapplication-TileImage" content="../../images/favicon/ms-tile-144.png">
+  <link rel="manifest" href="../../images/favicon/manifest.json">
 
   <title>Design Portfolio – Mariia Simbirtseva</title>
+
+  <style media="screen">
+
+  .gradients {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('../../images/gradients/ya_profi.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+  }
+
+  .documentation {
+    margin: 0 auto;
+    padding: 20px 0;
+
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .bg_color {
+    background-color: #1D1D1B;
+  }
+
+  .documentation_link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+
+    color: #FCBA26;
+    margin-right: 114px;
+  }
+
+  .documentation_link:last-child {
+    margin-right: 0;
+  }
+
+  .documentation_2 {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  .documentation_link_2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+
+    color: #FCBA26;
+    margin-right: 114px;
+  }
+
+  </style>
+
 </head>
 <body>
 
@@ -39,7 +129,7 @@
           <a class="navigation-link" href="../../html/about.html">About me</a>
         </li>
         <li class="navigation-item works">
-          <a class="navigation-link" href="../../html/works.html">Works</a>
+          <a class="active" href="../../html/works.html">Works</a>
         </li>
         <li class="navigation-item contacts">
           <a class="navigation-link" href="../../html/contacts.html">Contacts</a>
@@ -51,7 +141,7 @@
 
   <article class="buttons">
     <li class="button">
-      <a href="">
+      <a href="geek_teachers_camp.html">
         <img class="button_icon" src="../../images/works/sun.svg" alt="">
         </img>
         <p class="button_inside">
@@ -61,7 +151,7 @@
     </li>
 
     <li class="button">
-      <a href="">
+      <a href="../works.html">
         <img class="button_icon" src="../../images/works/sun.svg" alt="">
         </img>
         <p class="button_inside";>
@@ -71,7 +161,7 @@
     </li>
 
     <li class="button">
-      <a href="">
+      <a href="transmediale_2020.html">
         <img class="button_icon" src="../../images/works/sun.svg" alt="">
         </img>
         <p class="button_inside">
@@ -81,7 +171,75 @@
     </li>
   </article>
 
-  <img src="../../images/works/ya_profi/1.jpg" alt="" class="content">
+  <section class="bg_color">
+    <img src="../../images/works/ya_profi/1.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/2.jpg" alt="" class="content">
+
+    <p class="documentation">
+      <a href="" class="documentation_link" target="_blank">SEE RELATED DOCUMENTATION</a>
+      <a href="" class="documentation_link" target="_blank">OFFICIAL WEBSITE OF THE OLYMPIAD (RU)</a>
+      <a href="" class="documentation_link" target="_blank">OFFICIAL ANNOUNCEMENT (RU)</a>
+    </p>
+
+    <img src="../../images/works/ya_profi/3.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/4.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/5.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/6.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/7.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/8.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/9.jpg" alt="" class="content">
+
+    <p class="documentation_2">
+      <a href="" class="documentation_link_2" target="_blank">OFFICIAL INSTAGRAM OF THE OLYMPIAD</a>
+    </p>
+
+    <img src="../../images/works/ya_profi/10.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/11.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/12.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/13.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/14.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/15.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/16.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/17.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/18.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/19.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/20.jpg" alt="" class="content">
+    <img src="../../images/works/ya_profi/21.jpg" alt="" class="content">
+
+    <article class="buttons">
+      <li class="button">
+        <a href="geek_teachers_camp.html">
+          <img class="button_icon" src="../../images/works/sun.svg" alt="">
+          </img>
+          <p class="button_inside">
+            previous<br> project
+          </p>
+        </a>
+      </li>
+
+      <li class="button">
+        <a href="../works.html">
+          <img class="button_icon" src="../../images/works/sun.svg" alt="">
+          </img>
+          <p class="button_inside";>
+            back to works
+          </p>
+        </a>
+      </li>
+
+      <li class="button">
+        <a href="transmediale_2020.html">
+          <img class="button_icon" src="../../images/works/sun.svg" alt="">
+          </img>
+          <p class="button_inside">
+            next <br>project
+          </p>
+        </a>
+      </li>
+    </article>
+
+    <img src="../../images/works/ya_profi/22.jpg" alt="" class="content">
+  </section>
 
 </body>
 
