@@ -8,13 +8,115 @@
   <link rel="stylesheet" href="../../styles/header.css">
   <link rel="stylesheet" href="../../styles/title.css">
   <link rel="stylesheet" href="../../styles/style.css">
-  <link rel="stylesheet" href="../../styles/works/geek_teachers_camp.css">
+  <link rel="stylesheet" href="../../styles/buttons.css">
+  <link rel="stylesheet" href="../../styles/images.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="../../images/favicon/favicon-512.svg" sizes="any" type="image/svg+xml">
+  <link rel="icon" sizes="48x48" href="../../images/favicon/icon-48.png">
+  <link rel="icon" sizes="96x96" href="../../images/favicon/icon-96.png">
+  <link rel="icon" sizes="144x144" href="../../images/favicon/icon-144.png">
+  <link rel="icon" sizes="192x192" href="../../images/favicon/icon-192.png">
+  <link rel="icon" sizes="256x256" href="../../images/favicon/icon-256.png">
+  <link rel="icon" sizes="384x384" href="../../images/favicon/icon-384.png">
+  <link rel="icon" sizes="512x512" href="../../images/favicon/icon-512.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="../../images/favicon/apple-touch-icon-57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../../images/favicon/apple-touch-icon-60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../../images/favicon/apple-touch-icon-72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../../images/favicon/apple-touch-icon-76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../../images/favicon/apple-touch-icon-114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../../images/favicon/apple-touch-icon-120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../../images/favicon/apple-touch-icon-152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="../../images/favicon/apple-touch-icon-167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../images/favicon/apple-touch-icon-180.png">
+  <link rel="mask-icon" href="../../images/favicon/safari-pinned-tab.svg" color="radial-gradient(50.12% 49.88% at 50% 50%, #ED1C24 0%, #F15A24 100%)">
+  <meta name="msapplication-TileColor" content="radial-gradient(50.12% 49.88% at 50% 50%, #ED1C24 0%, #F15A24 100%)">
+  <meta name="msapplication-TileImage" content="../../images/favicon/ms-tile-144.png">
+  <link rel="manifest" href="../../images/favicon/manifest.json">
 
   <title>Design Portfolio – Mariia Simbirtseva</title>
+
+  <style media="screen">
+
+  .gradients {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('../../images/gradients/geek_teachers_camp.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+  }
+
+  .documentation {
+    margin: 0 auto;
+    padding: 20px 0;
+
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .documentation_link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+
+    color: #2B2F88;
+  }
+
+  .documentation_link:first-child {
+    margin-right: 114px;
+  }
+
+  .container {
+    position: relative;
+     width: 100%;
+     height: 0;
+     padding-bottom: 56.25%;
+  }
+
+  .video {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+  }
+
+  .container_3 {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+     width: 86%;
+     height: 700px;
+  }
+
+  .container_2 {
+    display: inline-block;
+    width: 29%;
+    height: 100%;
+    margin-right: 6%;
+  }
+
+  .container_2:last-child {
+    margin-right: 0;
+  }
+
+  .video_2 {
+    width: 100%;
+     height: 100%;
+  }
+
+  </style>
+
 </head>
 <body>
 
@@ -39,7 +141,7 @@
           <a class="navigation-link" href="../../html/about.html">About me</a>
         </li>
         <li class="navigation-item works">
-          <a class="navigation-link" href="../../html/works.html">Works</a>
+          <a class="active" href="../../html/works.html">Works</a>
         </li>
         <li class="navigation-item contacts">
           <a class="navigation-link" href="../../html/contacts.html">Contacts</a>
@@ -51,7 +153,7 @@
 
   <article class="buttons">
     <li class="button">
-      <a href="">
+      <a href="milestones_of_mobility.html">
         <img class="button_icon" src="../../images/works/sun.svg" alt="">
         </img>
         <p class="button_inside">
@@ -61,7 +163,7 @@
     </li>
 
     <li class="button">
-      <a href="">
+      <a href="../works.html">
         <img class="button_icon" src="../../images/works/sun.svg" alt="">
         </img>
         <p class="button_inside";>
@@ -71,7 +173,7 @@
     </li>
 
     <li class="button">
-      <a href="">
+      <a href="ya_profi.html">
         <img class="button_icon" src="../../images/works/sun.svg" alt="">
         </img>
         <p class="button_inside">
@@ -82,6 +184,90 @@
   </article>
 
   <img src="../../images/works/geek_teachers_camp/1.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/2.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/3.jpg" alt="" class="content">
+
+  <!-- <p class="documentation">
+    <a href="" class="documentation_link" target="_blank">SEE RELATED DOCUMENTATION
+    </a>
+    <a href="" class="documentation_link" target="_blank">SEE PROJECT PAGE ON THE UNIVERSITY WEBSITE
+    </a>
+  </p> -->
+
+  <img src="../../images/works/geek_teachers_camp/4.jpg" alt="" class="content">
+
+  <section class="container">
+    <iframe class="video" src="https://www.youtube.com/embed/vZJ6J7vJIQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+
+  <img src="../../images/works/geek_teachers_camp/5.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/6.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/7.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/8.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/9.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/10.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/11.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/12.jpg" alt="" class="content">
+
+  <section class="container_3">
+    <section class="container_2">
+      <iframe class="video_2" src="https://www.youtube.com/embed/NALNwKuq_pw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section class="container_2">
+      <iframe class="video_2" src="https://www.youtube.com/embed/noAMBuXgcpE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section class="container_2">
+      <iframe class="video_2" src="https://www.youtube.com/embed/Nb1OdhmxyGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+  </section>
+
+  <img src="../../images/works/geek_teachers_camp/13.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/14.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/15.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/16.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/17.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/18.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/19.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/20.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/21.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/22.jpg" alt="" class="content">
+  <img src="../../images/works/geek_teachers_camp/23.jpg" alt="" class="content">
+
+  <article class="buttons">
+    <li class="button">
+      <a href="milestones_of_mobility.html">
+        <img class="button_icon" src="../../images/works/sun.svg" alt="">
+        </img>
+        <p class="button_inside">
+          previous<br> project
+        </p>
+      </a>
+    </li>
+
+    <li class="button">
+      <a href="../works.html">
+        <img class="button_icon" src="../../images/works/sun.svg" alt="">
+        </img>
+        <p class="button_inside";>
+          back to works
+        </p>
+      </a>
+    </li>
+
+    <li class="button">
+      <a href="ya_profi.html">
+        <img class="button_icon" src="../../images/works/sun.svg" alt="">
+        </img>
+        <p class="button_inside">
+          next <br>project
+        </p>
+      </a>
+    </li>
+  </article>
+
+  <img src="../../images/works/geek_teachers_camp/24.jpg" alt="" class="content">
 
 </body>
 
