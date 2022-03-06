@@ -66,6 +66,23 @@
   text-decoration: none;
 
   color: #9C9FA1;
+
+  transition: all 0.2s ease;
+}
+
+.filter_link:hover {
+  background: #2F57E6;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+
+  color: #F3F0E9;
+  transition: all 0.2s ease;
+}
+
+.active_filter {
+  background: #D1DBFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+
+  color: #2F57E7;
 }
 
 .filter_item {
