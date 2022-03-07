@@ -62,7 +62,7 @@
   }
 }
 
-@media (min-width: 1240px) {
+@media (max-width: 1240px) {
   .title {
     height: 137.78px;
 
@@ -71,7 +71,7 @@
   }
 }
 
-@media (min-width: 1068px) {
+@media (max-width: 1068px) {
   .title {
     height: 118.67px;
 
@@ -80,7 +80,7 @@
   }
 }
 
-@media (min-width: 920px) {
+@media (max-width: 920px) {
   .title {
     height: 102.22px;
 
@@ -89,7 +89,7 @@
   }
 }
 
-@media (min-width: 792px) {
+@media (max-width: 792px) {
   .title {
     height: 88px;
 
@@ -98,7 +98,7 @@
   }
 }
 
-@media (min-width: 682px) {
+@media (max-width: 682px) {
   .title {
     height: 75.78px;
 
@@ -107,7 +107,7 @@
   }
 }
 
-@media (min-width: 588px) {
+@media (max-width: 588px) {
   .title {
     height: 65.33px;
 
@@ -116,7 +116,7 @@
   }
 }
 
-@media (min-width: 506px) {
+@media (max-width: 506px) {
   .title {
     height: 56.22px;
 
@@ -125,7 +125,7 @@
   }
 }
 
-@media (min-width: 436px) {
+@media (max-width: 436px) {
   .title {
     height: 48.44px;
 
@@ -134,7 +134,7 @@
   }
 }
 
-@media (min-width: 376px) {
+@media (max-width: 376px) {
   .title {
     height: 41.78px;
 
@@ -143,7 +143,7 @@
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .title {
     height: 35.56px;
 
