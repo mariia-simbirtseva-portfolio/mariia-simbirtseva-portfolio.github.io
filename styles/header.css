@@ -235,7 +235,7 @@
   }
 }
 
-@media (min-width: 1672px; max-width: 1942px) {
+@media (min-width: 1672px) {
   .header {
     grid-template-columns: 561.98px 854.58px;
     grid-column-gap: 23.22px;
