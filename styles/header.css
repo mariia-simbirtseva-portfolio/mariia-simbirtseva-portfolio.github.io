@@ -135,7 +135,57 @@
   font-weight: normal;
 }
 
-@media (max-width: 1800px) {
+@media (min-width: 2254px) {
+  .header {
+    grid-template-columns: 757.59px 1152.04px;
+    grid-column-gap: 31.31px;
+    width: 1940.94px;
+  }
+
+  .title {
+    height: 532.19px;
+    margin-top: 93.92px;
+
+    font-size: 93.92px;
+    line-height: 90.8px;
+  }
+
+  .menu {
+    margin-top: 93.92px;
+  }
+
+  .navigation-list {
+    grid-template-columns: 363.14px 363.14px 363.14px;
+    grid-template-areas: "about works contacts";
+    grid-column-gap: 31.13px;
+    width: 1152.04px;
+  }
+
+  .navigation-item {
+    height: 109.57px;
+  }
+
+  .navigation-link {
+    padding-top: 25.04px;
+
+    font-size: 46.96px;
+    line-height: 56px;
+  }
+
+  .navigation-item:hover .navigation-link {
+    font-size: 46.96px;
+    line-height: 51px;
+  }
+
+  .active {
+    padding-top: 25.04px;
+
+    font-size: 46.96px;
+    line-height: 56px;
+  }
+}
+
+@media (min-width: 1942px) {
   .header {
     grid-template-columns: 652.73px 992.58px;
     grid-column-gap: 26.97px;
