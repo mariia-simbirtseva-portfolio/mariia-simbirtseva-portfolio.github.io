@@ -134,3 +134,203 @@
   font-style: normal;
   font-weight: normal;
 }
+
+@media (min-width: 1672px) {
+  .header {
+    grid-template-columns: 561.98px 854.58px;
+    grid-column-gap: 23.22px;
+    width: 1439.78px;
+  }
+
+  .title {
+    height: 394.78px;
+    margin-top: 69.67px;
+
+    font-size: 69.67px;
+    line-height: 67.3px;
+  }
+
+  .menu {
+    margin-top: 69.67px;
+  }
+
+  .navigation-list {
+    grid-template-columns: 269.38px 269.38px 269.38px;
+    grid-template-areas: "about works contacts";
+    grid-column-gap: 23.22px;
+    width: 854.58px;
+  }
+
+  .navigation-item {
+    height: 81.28px;
+  }
+
+  .navigation-link {
+    padding-top: 18.576px;
+
+    font-size: 34.83px;
+    line-height: 41.796px;
+  }
+
+  .navigation-item:hover .navigation-link {
+    font-size: 34.83px;
+    line-height: 38.313px;
+  }
+
+  .active {
+    padding-top: 18.576px;
+
+    font-size: 34.83px;
+    line-height: 41.796px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .header {
+    grid-template-columns: 416.78px 633.78px;
+    grid-column-gap: 17.22px;
+    width: 1067.78px;
+  }
+
+  .title {
+    height: 292.78px;
+    margin-top: 51.67px;
+
+    font-size: 51.67px;
+    line-height: 49.9px;
+  }
+
+  .menu {
+    margin-top: 51.67px;
+  }
+
+  .navigation-list {
+    grid-template-columns: 199.78px 199.78px 199.78px;
+    grid-template-areas: "about works contacts";
+    grid-column-gap: 17.22px;
+    width: 633.78px;
+  }
+
+  .navigation-item {
+    height: 60.28px;
+  }
+
+  .navigation-link {
+    padding-top: 13.78px;
+
+    font-size: 25.83px;
+    line-height: 31px;
+  }
+
+  .navigation-item:hover .navigation-link {
+    font-size: 25.83px;
+    line-height: 28px;
+  }
+
+  .active {
+    padding-top: 13.78px;
+
+    font-size: 25.83px;
+    line-height: 31px;
+  }
+}
+
+@media (max-width: 1068px) {
+  .header {
+    grid-template-columns: 358.97px 545.87px;
+    grid-column-gap: 14.83px;
+    width: 919.67px;
+  }
+
+  .title {
+    height: 252.17px;
+    margin-top: 44.5px;
+
+    font-size: 44.5px;
+    line-height: 43px;
+  }
+
+  .menu {
+    margin-top: 44.5px;
+  }
+
+  .navigation-list {
+    grid-template-columns: 172.07px 172.07px 172.07px;
+    grid-template-areas: "about works contacts";
+    grid-column-gap: 14.83px;
+    width: 545.87px;
+  }
+
+  .navigation-item {
+    height: 51.92px;
+  }
+
+  .navigation-link {
+    padding-top: 11.87px;
+
+    font-size: 22.25px;
+    line-height: 27px;
+  }
+
+  .navigation-item:hover .navigation-link {
+    font-size: 22.25px;
+    line-height: 24px;
+  }
+
+  .active {
+    padding-top: 11.87px;
+
+    font-size: 22.25px;
+    line-height: 27px;
+  }
+}
+
+@media (max-width: 920px) {
+  .header {
+    grid-template-columns: 309.22px 470.22px;
+    grid-column-gap: 12.78px;
+    width: 792.22px;
+  }
+
+  .title {
+    height: 217.22px;
+    margin-top: 38.33px;
+
+    font-size: 38.33px;
+    line-height: 37.1px;
+  }
+
+  .menu {
+    margin-top: 38.33px;
+  }
+
+  .navigation-list {
+    grid-template-columns: 148.22px 148.22px 148.22px;
+    grid-template-areas: "about works contacts";
+    grid-column-gap: 12.78px;
+    width: 470.22px;
+  }
+
+  .navigation-item {
+    height: 44.72px;
+  }
+
+  .navigation-link {
+    padding-top: 10.22px;
+
+    font-size: 19.17px;
+    line-height: 23px;
+  }
+
+  .navigation-item:hover .navigation-link {
+    font-size: 19.17px;
+    line-height: 21px;
+  }
+
+  .active {
+    padding-top: 10.22px;
+
+    font-size: 19.17px;
+    line-height: 23px;
+  }
+}
