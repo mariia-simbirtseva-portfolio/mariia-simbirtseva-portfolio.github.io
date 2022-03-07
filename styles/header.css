@@ -135,6 +135,56 @@
   font-weight: normal;
 }
 
+@media (min-width: 1800px) {
+  .header {
+    grid-template-columns: 652.73px 992.58px;
+    grid-column-gap: 26.97px;
+    width: 1672.28px;
+  }
+
+  .title {
+    height: 458.53px;
+    margin-top: 80.92px;
+
+    font-size: 80.92px;
+    line-height: 78.2px;
+  }
+
+  .menu {
+    margin-top: 80.92px;
+  }
+
+  .navigation-list {
+    grid-template-columns: 312.88px 312.88px 312.88px;
+    grid-template-areas: "about works contacts";
+    grid-column-gap: 26.97px;
+    width: 992.58px;
+  }
+
+  .navigation-item {
+    height: 94.4px;
+  }
+
+  .navigation-link {
+    padding-top: 21.58px;
+
+    font-size: 40.46px;
+    line-height: 49px;
+  }
+
+  .navigation-item:hover .navigation-link {
+    font-size: 40.46px;
+    line-height: 44px;
+  }
+
+  .active {
+    padding-top: 21.58px;
+
+    font-size: 40.46px;
+    line-height: 49px;
+  }
+}
+
 @media (min-width: 1672px) {
   .header {
     grid-template-columns: 561.98px 854.58px;
@@ -182,56 +232,6 @@
 
     font-size: 34.83px;
     line-height: 41.796px;
-  }
-}
-
-@media (min-width: 1942px) {
-  .header {
-    grid-template-columns: 652.73px 992.58px;
-    grid-column-gap: 26.97px;
-    width: 1672.28px;
-  }
-
-  .title {
-    height: 458.53px;
-    margin-top: 80.92px;
-
-    font-size: 80.92px;
-    line-height: 78.2px;
-  }
-
-  .menu {
-    margin-top: 80.92px;
-  }
-
-  .navigation-list {
-    grid-template-columns: 312.88px 312.88px 312.88px;
-    grid-template-areas: "about works contacts";
-    grid-column-gap: 26.97px;
-    width: 992.58px;
-  }
-
-  .navigation-item {
-    height: 94.4px;
-  }
-
-  .navigation-link {
-    padding-top: 21.58px;
-
-    font-size: 40.46px;
-    line-height: 49px;
-  }
-
-  .navigation-item:hover .navigation-link {
-    font-size: 40.46px;
-    line-height: 44px;
-  }
-
-  .active {
-    padding-top: 21.58px;
-
-    font-size: 40.46px;
-    line-height: 49px;
   }
 }
 
