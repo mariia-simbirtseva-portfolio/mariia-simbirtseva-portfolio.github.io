@@ -101,7 +101,7 @@
   "three four"
   "five six"
   "seven eight"
-  "nine nine";
+  "ten nine";
   grid-gap: 20px;
   width: 1240px;
 }
@@ -146,6 +146,10 @@
   grid-area: nine;
 }
 
+.ten {
+  grid-area: ten;
+}
+
 .project {
   text-decoration: none;
 }
@@ -178,7 +182,7 @@
   width: 100%;
   height: 177px;
 
-  background: url("../images/2021_1.jpg");
+  background: url("../images/works/covers/usability_toolkit.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,56 +197,63 @@
 }
 
 .two .card_image {
-  background: url("../images/2021_2.jpg");
+  background: url("../images/works/covers/dorm_buddy.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .three .card_image {
-  background: url("../images/2021_3.jpg");
+  background: url("../images/works/covers/jetnet.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .four .card_image {
-  background: url("../images/2021_4.jpg");
+  background: url("../images/works/covers/temi.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .five .card_image {
-  background: url("../images/2020_1.jpg");
+  background: url("../images/works/covers/geek_teachers_camp.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .six .card_image {
-  background: url("../images/2020_2.jpg");
+  background: url("../images/works/covers/ya_profi.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .seven .card_image {
-  background: url("../images/2020_3.jpg");
+  background: url("../images/works/covers/3d_gallery.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .eight .card_image {
-  background: url("../images/2020_4.jpg");
+  background: url("../images/works/covers/transmediale_2020.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .nine .card_image {
-  background: url("../images/2019_1.jpg");
+  background: url("../images/works/covers/milestones_of_mobility.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ten .card_image {
+  background: url("../images/works/covers/wpmacroverse.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
