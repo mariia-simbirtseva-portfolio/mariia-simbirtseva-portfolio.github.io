@@ -24,7 +24,7 @@
 .second {
   margin: 0;
 
-  font-family: Ygro Sans Beta;
+  font-family: 'Ygro Sans Beta', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -50,7 +50,7 @@ p {
   margin-top: 35px;
   width: 484px;
 
-  font-family: Archivo;
+  font-family: 'Archivo', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -77,7 +77,7 @@ p {
   width: 232px;
   height: 60px;
 
-  font-family: Archivo;
+  font-family: 'Archivo', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

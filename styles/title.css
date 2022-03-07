@@ -21,16 +21,16 @@
 }
 
 .design {
-  font-family: Ygro Sans Beta;
+  font-family: 'Ygro Sans Beta', sans-serif;
 }
 
 .portfolio {
-  font-family: Archivo;
+  font-family: 'Archivo', sans-serif;
   font-style: italic;
 }
 
 .simbirtseva {
-  font-family: Archivo;
+  font-family: 'Archivo', sans-serif;
   font-style: italic;
   text-transform: capitalize;
 }

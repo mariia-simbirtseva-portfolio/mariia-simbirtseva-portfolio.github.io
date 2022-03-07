@@ -31,21 +31,21 @@
 }
 
 .design {
-  font-family: Ygro Sans Beta;
+  font-family: 'Ygro Sans Beta', sans-serif;
 }
 
 .portfolio {
-  font-family: Archivo;
+  font-family: 'Archivo', sans-serif;
   font-style: italic;
 }
 
 .mariia {
-  font-family: Ygro Sans Beta;
+  font-family: 'Ygro Sans Beta', sans-serif;
   text-transform: capitalize;
 }
 
 .simbirtseva {
-  font-family: Archivo;
+  font-family: 'Archivo', sans-serif;
   font-style: italic;
   text-transform: capitalize;
 }
@@ -91,7 +91,7 @@
   width: 100%;
   text-align: center;
 
-  font-family: Ygro Sans Beta;
+  font-family: 'Ygro Sans Beta', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -103,7 +103,7 @@
 }
 
 .navigation-item:hover .navigation-link {
-  font-family: Archivo;
+  font-family: 'Archivo', sans-serif;
   font-style: italic;
   font-weight: bold;
   font-size: 30px;
@@ -118,7 +118,7 @@
   width: 100%;
   text-align: center;
 
-  font-family: Ygro Sans Beta;
+  font-family: 'Ygro Sans Beta', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;

@@ -26,7 +26,7 @@
   margin: 0;
   margin-left: 126px;
 
-  font-family: Ygro Sans Beta;
+  font-family: 'Ygro Sans Beta', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -272,7 +272,7 @@
   width: 307px;
   height: 60px;
 
-  font-family: Archivo;
+  font-family: 'Archivo', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -291,7 +291,7 @@
   height: 25px;
   margin-bottom: 40px;
 
-  font-family: Archivo;
+  font-family: 'Archivo', sans-serif;
   font-style: italic;
   font-weight: 300;
   font-size: 22px;
@@ -315,7 +315,7 @@
   width: 671px;
   height: 500px;
 
-  font-family: Archivo;
+  font-family: 'Archivo', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
