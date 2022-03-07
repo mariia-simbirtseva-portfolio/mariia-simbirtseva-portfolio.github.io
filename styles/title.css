@@ -34,3 +34,120 @@
   font-style: italic;
   text-transform: capitalize;
 }
+
+@media (min-width: 2254px) {
+  .title {
+    height: 250.44px;
+
+    font-size: 54.7847px;
+    line-height: 62px;
+  }
+}
+
+@media (min-width: 1942px) {
+  .title {
+    height: 215.78px;
+
+    font-size: 47.2014px;
+    line-height: 53px;
+  }
+}
+
+@media (min-width: 1672px) {
+  .title {
+    height: 185.78px;
+
+    font-size: 40.6389px;
+    line-height: 46px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .title {
+    height: 137.78px;
+
+    font-size: 30.1389px;
+    line-height: 34px;
+  }
+}
+
+@media (min-width: 1068px) {
+  .title {
+    height: 118.67px;
+
+    font-size: 25.9583px;
+    line-height: 29px;
+  }
+}
+
+@media (min-width: 920px) {
+  .title {
+    height: 102.22px;
+
+    font-size: 22.3611px;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: 792px) {
+  .title {
+    height: 88px;
+
+    font-size: 19.25px;
+    line-height: 22px;
+  }
+}
+
+@media (min-width: 682px) {
+  .title {
+    height: 75.78px;
+
+    font-size: 16.5764px;
+    line-height: 19px;
+  }
+}
+
+@media (min-width: 588px) {
+  .title {
+    height: 65.33px;
+
+    font-size: 14.2917px;
+    line-height: 16px;
+  }
+}
+
+@media (min-width: 506px) {
+  .title {
+    height: 56.22px;
+
+    font-size: 12.2986px;
+    line-height: 14px;
+  }
+}
+
+@media (min-width: 436px) {
+  .title {
+    height: 48.44px;
+
+    font-size: 10.5972px;
+    line-height: 12px;
+  }
+}
+
+@media (min-width: 376px) {
+  .title {
+    height: 41.78px;
+
+    font-size: 9.13889px;
+    line-height: 10px;
+  }
+}
+
+@media (min-width: 320px) {
+  .title {
+    height: 35.56px;
+
+    font-size: 7.77778px;
+    line-height: 9px;
+  }
+}
