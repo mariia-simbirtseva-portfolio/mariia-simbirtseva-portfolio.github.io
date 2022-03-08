@@ -323,3 +323,651 @@
 
   color: #2F57E7;
 }
+
+@media (min-width: 2254px) {
+  .text {
+    margin-top: 31.31px;
+
+    display: grid;
+    grid-template-columns: 954.82px 954.82px;
+    grid-template-areas: "text text";
+    grid-column-gap: 31.31px;
+    width: 1940.94px;
+  }
+
+  .text p {
+    width: 757.59px;
+    height: 250.44px;
+    margin-left: 196px;
+
+    font-size: 62.6111px;
+    line-height: 75px;
+  }
+
+  .filter {
+    margin-top: 172.18px;
+  }
+
+  .filer_list {
+    width: 1940.94px;
+  }
+
+  .filter_link {
+    margin-right: 31.31px;
+    padding: 28.175px;
+    border-radius: 15.6528px;
+
+    font-size: 34.4361px;
+    line-height: 40px;
+  }
+
+  .filter_link:hover {
+    box-shadow: 0px 3.13056px 6.26111px rgba(0, 0, 0, 0.15);
+  }
+
+  .active_filter {
+    box-shadow: 0px 3.13056px 6.26111px rgba(0, 0, 0, 0.15);
+  }
+
+  .works_list {
+    margin-top: 156.53px;
+
+    grid-template-columns: 954.82px 954.82px;
+
+    grid-gap: 31.31px;
+    width: 1940.94px;
+  }
+
+  .work_card + p {
+    margin-top: 156.53px;
+  }
+
+  .work_card {
+    width: 954.82px;
+
+    border: 1.56528px solid #ABB4BC;
+    border-radius: 46.9583px;
+  }
+
+  .work_card:hover {
+    box-shadow: 0px 6.26111px 15.6528px rgba(0, 0, 0, 0.25);
+  }
+
+  .card_image {
+    height: 277.05px;
+
+    border-radius: 45.3931px 45.3931px 0px 0px;
+  }
+
+  .card_content {
+    margin-top: 43.83px;
+    padding-left: 62.61px;
+  }
+
+  .card_title {
+    width: 480.54px;
+    height: 96px;
+
+    font-size: 43.8278px;
+    line-height: 48px;
+  }
+
+  .card_tags {
+    width: 826.47px;
+    height: 40px;
+    margin-bottom: 63.83px;
+
+    font-size: 34.4361px;
+    line-height: 40px;
+  }
+
+  .text_down p {
+    margin-top: 579.15px;
+
+    width: 1050.3px;
+    height: 782.64px;
+
+    font-size: 62.6111px;
+    line-height: 68px;
+  }
+}
+
+@media (min-width: 1942px) {
+  .text {
+    margin-top: 26.97px;
+
+    display: grid;
+    grid-template-columns: 822.65px 822.65px;
+    grid-template-areas: "text text";
+    grid-column-gap: 26.97px;
+    width: 1672.28px;
+  }
+
+  .text p {
+    width: 652.73px;
+    height: 215.78px;
+    margin-left: 169px;
+
+    font-size: 53.9444px;
+    line-height: 65px;
+  }
+
+  .filter {
+    margin-top: 148.35px;
+  }
+
+  .filer_list {
+    width: 1672.28px;
+  }
+
+  .filter_link {
+    margin-right: 26.97px;
+    padding: 24.275px;
+    border-radius: 13.4861px;
+
+    font-size: 29.6694px;
+    line-height: 34px;
+  }
+
+  .filter_link:hover {
+    box-shadow: 0px 2.69722px 5.39444px rgba(0, 0, 0, 0.15);
+  }
+
+  .active_filter {
+    box-shadow: 0px 2.69722px 5.39444px rgba(0, 0, 0, 0.15);
+  }
+
+  .works_list {
+    margin-top: 134.86px;
+
+    grid-template-columns: 822.65px 822.65px;
+
+    grid-gap: 26.97px;
+    width: 1672.28px;
+  }
+
+  .work_card + p {
+    margin-top: 134.86px;
+  }
+
+  .work_card {
+    width: 822.65px;
+
+    border: 1.34861px solid #ABB4BC;
+    border-radius: 40.4583px;
+  }
+
+  .work_card:hover {
+    box-shadow: 0px 5.39444px 13.4861px rgba(0, 0, 0, 0.25);
+  }
+
+  .card_image {
+    height: 238.7px;
+
+    border-radius: 39.1097px 39.1097px 0px 0px;
+  }
+
+  .card_content {
+    margin-top: 37.76px;
+    padding-left: 53.94px;
+  }
+
+  .card_title {
+    width: 414.02px;
+    height: 82px;
+
+    font-size: 37.7611px;
+    line-height: 41px;
+  }
+
+  .card_tags {
+    width: 712.07px;
+    height: 34px;
+    margin-bottom: 55px;
+
+    font-size: 29.6694px;
+    line-height: 34px;
+  }
+
+  .text_down p {
+    margin-top: 498.99px;
+
+    width: 904.92px;
+    height: 674.31px;
+
+    font-size: 53.9444px;
+    line-height: 59px;
+  }
+}
+
+@media (min-width: 1672px) {
+  .text {
+    margin-top: 23.22px;
+
+    display: grid;
+    grid-template-columns: 708.28px 708.28px;
+    grid-template-areas: "text text";
+    grid-column-gap: 23.22px;
+    width: 1439.78px;
+  }
+
+  .text p {
+    width: 561.98px;
+    height: 185.78px;
+    margin-left: 145.5px;
+
+    font-size: 46.4444px;
+    line-height: 56px;
+  }
+
+  .filter {
+    margin-top: 127.72px;
+  }
+
+  .filer_list {
+    width: 1439.78px;
+  }
+
+  .filter_link {
+    margin-right: 23.22px;
+    padding: 20.9px;
+    border-radius: 11.6111px;
+
+    font-size: 25.5444px;
+    line-height: 29px;
+  }
+
+  .filter_link:hover {
+    box-shadow: 0px 2.32222px 4.64444px rgba(0, 0, 0, 0.15);
+  }
+
+  .active_filter {
+    box-shadow: 0px 2.32222px 4.64444px rgba(0, 0, 0, 0.15);
+  }
+
+  .works_list {
+    margin-top: 116.11px;
+
+    grid-template-columns: 708.28px 708.28px;
+
+    grid-gap: 23.22px;
+    width: 1439.78px;
+  }
+
+  .work_card + p {
+    margin-top: 116.11px;
+  }
+
+  .work_card {
+    width: 708.28px;
+
+    border: 1.16111px solid #ABB4BC;
+    border-radius: 34.8333px;
+  }
+
+  .work_card:hover {
+    box-shadow: 0px 4.64444px 11.6111px rgba(0, 0, 0, 0.25);
+  }
+
+  .card_image {
+    height: 205.52px;
+
+    border-radius: 33.6722px 33.6722px 0px 0px;
+  }
+
+  .card_content {
+    margin-top: 32.51px;
+    padding-left: 46.44px;
+  }
+
+  .card_title {
+    width: 356.46px;
+    height: 70px;
+
+    font-size: 32.5111px;
+    line-height: 35px;
+  }
+
+  .card_tags {
+    width: 613.07px;
+    height: 29px;
+    margin-bottom: 47.35px;
+
+    font-size: 25.5444px;
+    line-height: 29px;
+  }
+
+  .text_down p {
+    margin-top: 429.61px;
+
+    width: 779.11px;
+    height: 580.56px;
+
+    font-size: 46.4444px;
+    line-height: 51px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .text {
+    margin-top: 17.22px;
+
+    display: grid;
+    grid-template-columns: 525.28px 525.28px;
+    grid-template-areas: "text text";
+    grid-column-gap: 17.22px;
+    width: 1067.78px;
+  }
+
+  .text p {
+    width: 416.78px;
+    height: 137.78px;
+    margin-left: 107.91px;
+
+    font-size: 34.4444px;
+    line-height: 41px;
+  }
+
+  .filter {
+    margin-top: 94.72px;
+  }
+
+  .filer_list {
+    width: 1067.78px;
+  }
+
+  .filter_link {
+    margin-right: 17.22px;
+    padding: 15.5px;
+    border-radius: 8.61111px;
+
+    font-size: 18.9444px;
+    line-height: 22px;
+  }
+
+  .filter_link:hover {
+    box-shadow: 0px 1.72222px 3.44444px rgba(0, 0, 0, 0.15);
+  }
+
+  .active_filter {
+    box-shadow: 0px 1.72222px 3.44444px rgba(0, 0, 0, 0.15);
+  }
+
+  .works_list {
+    margin-top: 86.11px;
+
+    grid-template-columns: 525.28px 525.28px;
+
+    grid-gap: 17.22px;
+    width: 1067.78px;
+  }
+
+  .work_card + p {
+    margin-top: 24.11px;
+  }
+
+  .work_card {
+    width: 525.28px;
+
+    border: 0.861111px solid #ABB4BC;
+    border-radius: 25.8333px;
+  }
+
+  .work_card:hover {
+    box-shadow: 0px 3.44444px 8.61111px rgba(0, 0, 0, 0.25);
+  }
+
+  .card_image {
+    height: 152.42px;
+
+    border-radius: 24.9722px 24.9722px 0px 0px;
+  }
+
+  .card_content {
+    margin-top: 24.11px;
+    padding-left: 34.44px;
+  }
+
+  .card_title {
+    width: 264.36px;
+    height: 52px;
+
+    font-size: 24.1111px;
+    line-height: 26px;
+  }
+
+  .card_tags {
+    width: 454.67px;
+    height: 22px;
+    margin-bottom: 35.12px;
+
+    font-size: 18.9444px;
+    line-height: 22px;
+  }
+
+  .text_down p {
+    margin-top: 318.61px;
+
+    width: 577.81px;
+    height: 430.56px;
+
+    font-size: 34.4444px;
+    line-height: 37px;
+  }
+}
+
+@media (max-width: 1068px) {
+  .text {
+    margin-top: 14.83px;
+
+    display: grid;
+    grid-template-columns: 452.42px 452.42px;
+    grid-template-areas: "text text";
+    grid-column-gap: 14.83px;
+    width: 919.67px;
+  }
+
+  .text p {
+    width: 358.97px;
+    height: 118.67px;
+    margin-left: 92.94px;
+
+    font-size: 29.6667px;
+    line-height: 36px;
+  }
+
+  .filter {
+    margin-top: 81.58px;
+  }
+
+  .filer_list {
+    width: 919.67px;
+  }
+
+  .filter_link {
+    margin-right: 14.83px;
+    padding: 13.35px;
+    border-radius: 7.41667px;
+
+    font-size: 16.3167px;
+    line-height: 19px;
+  }
+
+  .filter_link:hover {
+    box-shadow: 0px 1.48333px 2.96667px rgba(0, 0, 0, 0.15);
+  }
+
+  .active_filter {
+    box-shadow: 0px 1.48333px 2.96667px rgba(0, 0, 0, 0.15);
+  }
+
+  .works_list {
+    margin-top: 74.17px;
+
+    grid-template-columns: 452.42px 452.42px;
+
+    grid-gap: 14.83px;
+    width: 919.67px;
+  }
+
+  .work_card + p {
+    margin-top: 20.77px;
+  }
+
+  .work_card {
+    width: 452.42px;
+
+    border: 0.741667px solid #ABB4BC;
+    border-radius: 22.25px;
+  }
+
+  .work_card:hover {
+    box-shadow: 0px 2.96667px 7.41667px rgba(0, 0, 0, 0.25);
+  }
+
+  .card_image {
+    height: 131.27px;
+
+    border-radius: 21.5083px 21.5083px 0px 0px;
+  }
+
+  .card_content {
+    margin-top: 20.77px;
+    padding-left: 29.67px;
+  }
+
+  .card_title {
+    width: 227.69px;
+    height: 46px;
+
+    font-size: 20.7667px;
+    line-height: 23px;
+  }
+
+  .card_tags {
+    width: 391.6px;
+    height: 19px;
+    margin-bottom: 30.25px;
+
+    font-size: 16.3167px;
+    line-height: 19px;
+  }
+
+  .text_down p {
+    margin-top: 274.42px;
+
+    width: 497.66px;
+    height: 370.83px;
+
+    font-size: 29.6667px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 920px) {
+  .text {
+    margin-top: 12.78px;
+
+    display: grid;
+    grid-template-columns: 389.72px 389.72px;
+    grid-template-areas: "text text";
+    grid-column-gap: 12.78px;
+    width: 792.22px;
+  }
+
+  .text p {
+    width: 309.22px;
+    height: 102.22px;
+    margin-left: 80.06px;
+
+    font-size: 25.5556px;
+    line-height: 31px;
+  }
+
+  .filter {
+    margin-top: 70.28px;
+  }
+
+  .filer_list {
+    width: 792.22px;
+  }
+
+  .filter_link {
+    margin-right: 12.78px;
+    padding: 11.5px;
+    border-radius: 6.38889px;
+
+    font-size: 14.0556px;
+    line-height: 16px;
+  }
+
+  .filter_link:hover {
+    box-shadow: 0px 1.27778px 2.55556px rgba(0, 0, 0, 0.15);
+  }
+
+  .active_filter {
+    box-shadow: 0px 1.27778px 2.55556px rgba(0, 0, 0, 0.15);
+  }
+
+  .works_list {
+    margin-top: 63.89px;
+
+    grid-template-columns: 389.72px 389.72px;
+
+    grid-gap: 12.78px;
+    width: 792.22px;
+  }
+
+  .work_card + p {
+    margin-top: 17.89px;
+  }
+
+  .work_card {
+    width: 389.72px;
+
+    border: 0.638889px solid #ABB4BC;
+    border-radius: 19.1667px;
+  }
+
+  .work_card:hover {
+    box-shadow: 0px 2.55556px 6.38889px rgba(0, 0, 0, 0.25);
+  }
+
+  .card_image {
+    height: 113.08px;
+
+    border-radius: 18.5278px 18.5278px 0px 0px;
+  }
+
+  .card_content {
+    margin-top: 17.89px;
+    padding-left: 25.56px;
+  }
+
+  .card_title {
+    width: 196.14px;
+    height: 38px;
+
+    font-size: 17.8889px;
+    line-height: 19px;
+  }
+
+  .card_tags {
+    width: 337.33px;
+    height: 16px;
+    margin-bottom: 26.05px;
+
+    font-size: 14.0556px;
+    line-height: 16px;
+  }
+
+  .text_down p {
+    margin-top: 236.39px;
+
+    width: 428.69px;
+    height: 319.44px;
+
+    font-size: 25.5556px;
+    line-height: 28px;
+  }
+}
